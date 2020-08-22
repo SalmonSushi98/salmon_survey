@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import { BrowserRouter, Route } from 'react-router-dom'
+import { HashRouter, Route } from 'react-router-dom'
 import Home from './routes/Home'
 import Terms from './routes/Terms'
 import Survey01 from './routes/Survey01'
@@ -8,12 +8,12 @@ import ResultPage from './routes/ResultPage'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Route path="/" exact={true} component={Home} />
       <Route path="/terms" component={Terms} />
       <Route path="/survey01" component={Survey01} />
       <Route path="/result" component={ResultPage} />
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
