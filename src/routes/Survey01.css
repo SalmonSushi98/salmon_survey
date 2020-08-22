@@ -1,0 +1,39 @@
+.survey__box {
+  margin: 20px auto;
+  border-radius: 10px;
+  background-color: white;
+  width: 600px;
+  text-align: center;
+  padding: 15px;
+}
+
+.terms__terms {
+  width: 350px;
+  border: 1px solid black;
+  text-align: left;
+  line-height: 30px;
+  padding: 5px;
+  margin: 10px auto;
+}
+
+.terms__component {
+  font-size: 14px;
+}
+
+.terms__btn {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-size: 20px;
+  outline: none;
+  padding: 5px 10px;
+}
+
+td, th {
+  text-align: left;
+}
+
+#confirm {
+  display: none;
+}

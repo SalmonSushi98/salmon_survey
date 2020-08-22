@@ -1,0 +1,8 @@
+.result__box {
+  margin: 150px auto;
+  border-radius: 10px;
+  background-color: white;
+  width: 400px;
+  text-align: center;
+  padding: 15px;
+}
