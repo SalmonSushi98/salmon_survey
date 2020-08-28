@@ -1,25 +1,27 @@
 .home__box {
-  margin: 150px auto;
-  border-radius: 10px;
+  margin: 20vh auto;
+  border-radius: 1rem;
   background-color: white;
-  width: 400px;
+  width: 80vw; max-width: 340px;
   text-align: center;
-  padding: 15px;
+  padding: 1rem;
 }
 
 .home__name {
-  font-size: 24px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  padding: 10px 8px;
+  width: 70vw; max-width: 310px;
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+  border-radius: 0.5rem;
+  outline: none;
+  padding: 0.7rem 0.5rem;
 }
 
 .home__btn {
   background-color: blue;
   color: white;
   border: none;
-  border-radius: 7px;
-  font-size: 20px;
+  border-radius: 0.5rem;
+  font-size: 1rem;
   outline: none;
-  padding: 5px 10px;
+  padding: 0.2rem 0.5rem;
 }

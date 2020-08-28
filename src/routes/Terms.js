@@ -45,20 +45,19 @@ class Terms extends React.Component {
       const name = location.state.name
       return (
         <div className="terms__box">
-          <pre className="terms__terms">
-            본 테스트는 순전히 재미용입니다. 설문 결과에 너무<br />
-            몰입하지 말아주시기를 부탁드립니다.<br />
-            또한, 해당 설문의 저작권은 SalmonSushi98에 있습니다.<br />
+          <p className="terms__terms">
+            본 테스트는 순전히 재미용입니다. 설문 결과에 너무
+            몰입하지 말아주시기를 부탁드립니다.
+            또한, 해당 설문의 저작권은 SalmonSushi98에 있습니다.
             당사자의 허락 없는 무단 배포 및 수정을 금합니다.
-          </pre>
+          </p>
           <form name="terms">
           <input
               type="radio"
               name="terms__item"
               value="agree"
               onClick={this.setValue}
-            /><span className="terms__component">동의함 (Agree)</span>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            /><span className="terms__component">동의함 (Agree)</span><br />
             <input
               type="radio"
               name="terms__item"

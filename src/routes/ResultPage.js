@@ -3,9 +3,6 @@ import { Link } from 'react-router-dom'
 import './ResultPage.css'
 
 class ResultPage extends React.Component {
-  constructor (props) {
-    super(props)
-  }
 
   componentDidMount () {
     const { location, history } = this.props

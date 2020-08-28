@@ -2,9 +2,6 @@ import React from 'react'
 import './QuestionTable.css'
 
 class QuestionTable extends React.Component {
-  constructor (props) {
-    super(props)
-  }
 
   render () {
     const contentsArr = this.props.contents
