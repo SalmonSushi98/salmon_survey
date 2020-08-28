@@ -26,7 +26,7 @@ class ResultPage extends React.Component {
         info = "극성 캣맘이 되지 않도록 조심하세요."
       } else if ( score < 16 && score > 10 ) {
         level = "건강한 애묘인"
-        info = "아주 훌륭한 분이군요, 앞으로도 이런 자세를 유지해주세요."
+        info = "아주 훌륭한 분이시군요, 앞으로도 이런 자세를 유지해주세요."
       } else if ( score < 11 && score > 5 ) {
         level = "일반인"
         info = "조금 더 고양이한테 관심을 주는 것은 어떨까요??"
